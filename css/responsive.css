@@ -1,0 +1,110 @@
+/* small devices */
+
+@media(max-width:767px){
+
+    .head p{
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    .head .center{
+        text-align: center;
+    }
+    .head a i{
+        font-size: 20px;
+    }
+    .navbar-brand,.navbar-nav{
+        margin-left: 15px;
+    }
+    .navbar-dark .navbar-toggler{
+        margin-right: 10px;
+    }
+    .bg-heading h5 {
+        font-size: 20px;
+    }
+    .bg-heading h1{
+        font-size: 26px;
+    }
+    .bg-heading .heading-h1{
+        font-size:28px ;
+        margin-bottom: 20px;
+    }
+    .welcome .pd-55{
+        order: 2;
+        text-align: center;
+    }
+    .choose{
+        margin-top: 20px;
+    }
+    .choose p {
+        padding-bottom: 0;
+    }
+    .choose .info{
+        padding: 1px 5px;
+        margin-bottom: 15px;
+    }
+    .love-title a{
+        display: block;
+    }
+    .love .height-img{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .pd-3{
+        padding: 0 15px;
+    }
+    .service ,.service p{
+        text-align: center;
+    }
+    .footer h5{
+        margin-top: 15px;
+    }
+    .footer .social{
+        margin-right: 8px;}
+
+}
+
+
+/* Medium devices ( 768 px and up) */
+
+@media(min-width:768px){
+
+    .head a i{
+        font-size: 20px;
+    }
+    .head .right, .head .center{
+        text-align: right;
+    } 
+    .love .height-img{
+        height: 141px
+    }
+    .welcome{
+        text-align: center;
+    }
+    .service ,.service p{
+        text-align: center;
+    }
+    .question h1, h4{
+        font-size: 20px;}
+        
+}
+
+ /* Large devices ( 992 px and up) */
+
+@media (min-width: 992px){
+
+    .head a i{
+        font-size: 14px;
+    }
+    .love .height-img{
+        height: 194px;
+    }
+    .welcome{
+        text-align: left;
+    }
+    .service ,.service p{
+        text-align: left;
+    }
+
+
+}
+
